@@ -50,13 +50,7 @@ src/
    bash
    npm install
 2.Запустить в режиме разработки:
-npm run dev
-3.Собрать проект:
-npm run build
-```
-  npm run dev
-  3.Собрать проект:
-  npm run build
-
-   
    npm run dev
+3.Собрать проект:
+   npm run build
+```
