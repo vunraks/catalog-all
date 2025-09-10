@@ -28,19 +28,19 @@
 
 ## 📂 Структура проекта
 src/
-├── components/
-│ ├── Header.jsx
-│ ├── ItemList.jsx
-│ ├── ItemCard.jsx
-│ ├── ItemForm.jsx
-│ ├── FavoritesList.jsx
-│ ├── EditModal.jsx
+├── components/ # Компоненты интерфейса
+│ ├── Header.jsx # Шапка сайта (переключение страниц)
+│ ├── ItemList.jsx # Список карточек
+│ ├── ItemCard.jsx # Отдельная карточка
+│ ├── ItemForm.jsx # Форма добавления элемента
+│ ├── FavoritesList.jsx # Список избранного
+│ ├── EditModal.jsx # Модальное окно редактирования
 ├── data/
-│ └── mockItems.js
-├── App.jsx
-├── main.jsx
-├── tailwind.config.js
-└── README.md
+│ └── mockItems.js # Тестовые данные (мок)
+├── App.jsx # Основное приложение
+├── main.jsx # Точка входа
+├── tailwind.config.js # Конфигурация Tailwind CSS
+└── README.md # Документация проекта
 
 ## ▶️ Запуск проекта
 1. Установить зависимости:
