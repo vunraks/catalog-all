@@ -5,23 +5,51 @@
 
 
 
+# 📚 Catalog App
 
+Мини-проект на **React (Vite)** для практики работы с компонентами, пропсами, состоянием (`useState`), локальным хранилищем (**localStorage**), а также стилизацией с помощью **Tailwind CSS** и **CSS Modules**.
 
+## 🚀 Функционал
+- 📌 Главная страница с каталогом карточек (фильмы / книги / игры).
+- ⭐ Добавление/удаление элементов.
+- ✏️ Редактирование карточек (включая URL картинки).
+- 💛 Добавление в избранное (изначально белая иконка → при нажатии жёлтая).
+- 📂 Отдельная страница для "Избранного".
+- 🗑 Удаление карточки.
+- 💾 Сохранение данных в `localStorage` (при обновлении страницы данные не пропадают).
+- 📱 Адаптивная верстка (Tailwind + CSS Modules).
 
+## 🛠 Технологии
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🎭 CSS Modules
+- 📦 LocalStorage
+- 🔗 React Icons (иконки)
 
+## 📂 Структура проекта
+src/
+├── components/
+│ ├── Header.jsx
+│ ├── ItemList.jsx
+│ ├── ItemCard.jsx
+│ ├── ItemForm.jsx
+│ ├── FavoritesList.jsx
+│ ├── EditModal.jsx
+├── data/
+│ └── mockItems.js
+├── App.jsx
+├── main.jsx
+├── tailwind.config.js
+└── README.md
 
+## ▶️ Запуск проекта
+1. Установить зависимости:
+   ```bash
+   npm install
+  2.Запустить в режиме разработки:
+  npm run dev
+  3.Собрать проект:
+  npm run build
 
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   
+   npm run dev
